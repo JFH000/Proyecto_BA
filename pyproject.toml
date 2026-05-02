@@ -21,7 +21,19 @@ dependencies = [
     "nltk>=3.9.4",
     "spacy>=3.8.14",
     "transformers[sentencepiece]>=5.7.0",
-    "torch>=2.11.0",
     "requests>=2.33.1",
     "accelerate>=1.13.0",
+    "torch==2.6.0+cu118",
+    "torchvision==0.21.0+cu118",
+    "torchaudio==2.6.0+cu118",
 ]
+
+[[tool.uv.index]]
+name = "pytorch-cu118"
+url = "https://download.pytorch.org/whl/cu118"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu118" }
+torchvision = { index = "pytorch-cu118" }
+torchaudio = { index = "pytorch-cu118" }
