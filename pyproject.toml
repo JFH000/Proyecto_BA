@@ -20,12 +20,13 @@ dependencies = [
     "xgboost>=3.2.0",
     "nltk>=3.9.4",
     "spacy>=3.8.14",
-    "transformers[sentencepiece]>=5.7.0",
     "requests>=2.33.1",
     "accelerate>=1.13.0",
     "torch==2.6.0+cu118",
     "torchvision==0.21.0+cu118",
     "torchaudio==2.6.0+cu118",
+    "transformers>=5.7.0",
+    "bitsandbytes>=0.49.2",
 ]
 
 [[tool.uv.index]]

@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=jupyter
 #SBATCH --mem=64G
-#SBATCH --time=10-00:00:00
+#SBATCH --time=5-00:00:00
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
 
